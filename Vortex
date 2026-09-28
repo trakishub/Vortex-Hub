@@ -523,11 +523,3 @@ task.wait(0.5)
 
 ScreenGui:Destroy()
 
-task.wait(0.2)
-
--- Executa o Vortex Hub depois do loading
-loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/trakishub/Car-dealaship-tycoon/refs/heads/main/Trakis%20car"
-))()
-
---==================== FIM DA TELA ====================
